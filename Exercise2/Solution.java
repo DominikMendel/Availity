@@ -47,7 +47,6 @@ public class Solution {
         protected String insuranceCompany;
         protected int version;
 
-        //@todo might be able to remove userID as that is unique and may be part of the map
         public Person(String userId, String firstName, String lastName, int version, String insuranceCompany) {
             this.userId = userId;
             this.firstName = firstName;
